@@ -1,38 +1,38 @@
 //-------------------------------------TEST-------------------------------------
 //define some presets to make sure they do not change after running set schedule
-let presets = [
-    [["alex", "Sigala"], "m"],
-    [["Rosi", "Calderone"], "k"]
-];
-let workStation = [
-    ["a", ""],
-    ["b", ""],
-    ["c", ""],
-    ["d", ""],
-    ["e", ""],
-    ["f", ""],
-    ["g", ""],
-    ["h", ""],
-    ["i", ""],
-    ["j", ""],
-    ["k", ""],
-    ["l", ""],
-    ["m", ""]
-];
-console.log(`
-            \n station a is assigned employee ${workStation.a}
-            \n station b is assigned employee ${workStation.b}
-            \n station c is assigned employee ${workStation.c}
-            \n station d is assigned employee ${workStation.b}
-            \n station e is assigned employee ${workStation.e}
-            \n station f is assigned employee ${workStation.f}
-            \n station g is assigned employee ${workStation.g}
-            \n station h is assigned employee ${workStation.h}
-            \n station i is assigned employee ${workStation.i}
-            \n station j is assigned employee ${workStation.j}
-            \n station k is assigned employee ${workStation.k}
-            \n station l is assigned employee ${workStation.l}
-            \n station m is assigned employee ${workStation.m}`);
+// let presets = [
+//     [["alex", "Sigala"], "m"],
+//     [["Rosi", "Calderone"], "k"]
+// ];
+// let workStation = [
+//     ["a", ""],
+//     ["b", ""],
+//     ["c", ""],
+//     ["d", ""],
+//     ["e", ""],
+//     ["f", ""],
+//     ["g", ""],
+//     ["h", ""],
+//     ["i", ""],
+//     ["j", ""],
+//     ["k", ""],
+//     ["l", ""],
+//     ["m", ""]
+// ];
+// console.log(`
+//             \n station a is assigned employee ${workStation.a}
+//             \n station b is assigned employee ${workStation.b}
+//             \n station c is assigned employee ${workStation.c}
+//             \n station d is assigned employee ${workStation.b}
+//             \n station e is assigned employee ${workStation.e}
+//             \n station f is assigned employee ${workStation.f}
+//             \n station g is assigned employee ${workStation.g}
+//             \n station h is assigned employee ${workStation.h}
+//             \n station i is assigned employee ${workStation.i}
+//             \n station j is assigned employee ${workStation.j}
+//             \n station k is assigned employee ${workStation.k}
+//             \n station l is assigned employee ${workStation.l}
+//             \n station m is assigned employee ${workStation.m}`);
 //-----------------------------------------------------------------------------------------
 
 const assignPresets = (presets, workStation) => {
@@ -65,8 +65,8 @@ const assignPresets = (presets, workStation) => {
         return workStation;
     }
 };
-assignPresets(presets, workStation);
-console.log(workStation);
+// assignPresets(presets, workStation);
+// console.log(workStation);
 //-----------------------------------------OLD CODE----------------------------------------------------------------
 //at first had workstation as an object but it was hard to traverse dynamically. I want to be able to inpout a changing workstation so an array was better bc i can acess the array at point i and update the value not havce to call a specific property
 //DEFINE A WORK STATION TO BE EDITED
