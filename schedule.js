@@ -26,7 +26,7 @@ const scheduler = (workStation, manualAssignments) => {
     //execute preset function to assign presets to their stations
     if (manualAssignments) {
         console.log("assiging presets");
-        preset(workStation, manualAssignments);
+        preset(manualAssignments, workStation);
 
         workStation.forEach(station => {
             console.log(`assigning employee to ${station}`);
