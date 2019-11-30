@@ -1,8 +1,8 @@
-let workers = [
+let employees = [
     {
         name: ["Alex", "Sigala"],
         certStations: ["m", "l", "k", "j"],
-        currentStation: "l",
+        currentStation: "m",
         daysSinceLastTrained: 27,
         qualityIssues: 2,
         daysSinceLastQualityIssue: 30,
@@ -15,8 +15,8 @@ let workers = [
     },
     {
         name: ["Rosi", "Calderone"],
-        certStations: ["m", "l", "k", "j", "Test"],
-        currentStation: "m",
+        certStations: ["Test", "m", "l", "k", "j"],
+        currentStation: "l",
         daysSinceLastTrained: 100,
         qualityIssues: 0,
         daysSinceLastQualityIssue: 200,
@@ -29,7 +29,7 @@ let workers = [
     },
     {
         name: ["new", "person"],
-        certStations: ["i", "h", "j", "g"],
+        certStations: ["j", "i", "h", "g"],
         currentStation: "i",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -57,7 +57,7 @@ let workers = [
     },
     {
         name: ["new", "guy"],
-        certStations: ["g", "f", "e", "h"],
+        certStations: ["h", "g", "f", "e"],
         currentStation: "h",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -66,7 +66,7 @@ let workers = [
     },
     {
         name: ["nick", "munoz"],
-        certStations: ["g", "h", "f", "e", "i"],
+        certStations: ["i", "h", "g", "f", "e"],
         currentStation: "g",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -75,7 +75,7 @@ let workers = [
     },
     {
         name: ["duyn", "nguyen"],
-        certStations: ["f", "e", "d", "g", "h"],
+        certStations: ["h", "g", "f", "e", "d"],
         currentStation: "f",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -83,8 +83,8 @@ let workers = [
         buildEfficiency: [["", ""]]
     },
     {
-        name: ["", ""],
-        certStations: ["e", "f", "d", "c"],
+        name: ["made", "up"],
+        certStations: ["f", "e", "d", "c"],
         currentStation: "e",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -93,7 +93,7 @@ let workers = [
     },
     {
         name: ["richard", "guy"],
-        certStations: ["d", "c", "b", "e", "f"],
+        certStations: ["f", "e", "d", "c", "b"],
         currentStation: "d",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -102,7 +102,7 @@ let workers = [
     },
     {
         name: ["third", "man"],
-        certStations: ["c", "b", "d", "e"],
+        certStations: ["e", "d", "c", "b"],
         currentStation: "c",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -111,7 +111,7 @@ let workers = [
     },
     {
         name: ["second", "dude"],
-        certStations: ["a", "c", "d", "b"],
+        certStations: ["d", "c", "b", "a"],
         currentStation: "b",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -120,7 +120,7 @@ let workers = [
     },
     {
         name: ["first", "guy"],
-        certStations: ["a", "b", "c", "d"],
+        certStations: ["d", "c", "b", "a"],
         currentStation: "a",
         daysSinceLastTrained: 0,
         qualityIssues: 0,
@@ -128,4 +128,4 @@ let workers = [
         buildEfficiency: [["", ""]]
     }
 ];
-module.exports = workers;
+module.exports = employees;
